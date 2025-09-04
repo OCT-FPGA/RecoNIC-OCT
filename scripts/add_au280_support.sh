@@ -33,6 +33,7 @@ cp -r ${patch_dir}/system_config/* ${nic_src_dir}/system_config
 
 cp ${patch_dir}/utility/vivado_ip/axi_clock_converter_for_mem_au280.tcl ${nic_src_dir}/utility/vivado_ip/axi_clock_converter_for_mem_au280.tcl
 
+# add comment test, and here we start to override some ERNIC 4 and QDMA 5 specific update
 
 echo -e "add_au280_support.sh done!"
 
