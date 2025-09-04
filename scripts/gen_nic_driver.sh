@@ -19,6 +19,7 @@ git apply --whitespace=fix ${drv_patch}
 rm -rf libqdma
 cp -r ${root_dir}/drivers/ernic4_driver_update/libqdma_for_qdma5/ libqdma
 cp ${root_dir}/drivers/ernic4_driver_update/qdma_device.h libqdma/
+cp ${root_dir}/drivers/ernic4_driver_update/Makefile .
 
 echo -e "update libqdma for QDMA 5.0"
 
